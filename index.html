@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML- & css-repetiion</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- nummrerad lista -->
+        <!-- <ol>
+          <li></li>
+        </ol> -->
+
+        <!-- punkt lista -->
+        <ul>
+          <li><a href=#/#>Hem</a></li>
+          <li><a href="produkter.html">Produkter</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- div är en generisk tagg för att gruppera andra taggar -->
+      <div class="wrapper">
+        <section id="articles">
+          <article>
+            <h1>hej världen!</h1>
+            <p><b>Lorem ipsum</b> dolor sit amet, <strong>consectetur adipisicing elit,</strong> sed do eiusmod <br>tempor incididunt ut <i>labore et dolore magna</i> aliqua. Ut <a href="http://google.com" target="blank" download>enim ad minim veniam</a>, <em> quis nostrud exercitation ullamco </em> laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </article>
+            <h2>Artikelrubrik</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h3>underrubrik</h3>
+            <p>fdgv Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </article>
+          <article>
+            <h2>artikelrubrik</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </article>
+        </section>
+        <section id="Instagram">
+          <h2>Instagram</h2>
+          <img src="https://images.pexels.com/photos/776996/pexels-photo-776996.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb" alt="en rosa blomma" class="img-fluid">
+        </section>
+        <form class="contact-form" action="action.html" method="post">
+          <label for="firstname">Förnamn</label>
+          <br>
+          <input type="text" name="firstname" value="Kalle">
+          <br><br>
+          <label for="lastname">Efternamn</label>
+          <br>
+          <input type="text" name="lastname" value="Nilsson">
+          <br><br>
+          <label for="Password">Ange lösenord</label>
+          <br>
+          <input type="password" name="password" value="">
+          <br><br>
+          <input type="submit" name="submit">
+        </form>
+      </div> <!-- / .wrapper (y3ni stängnings tagg för wrapper)-->
+    </main>
+    <footer>
+      <small>Copyright &copy; 2018 Noor Kabtool</small>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+/* Hej detta är en css-kommentar  */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #445566;
+}
+
+nav {
+  background-color: black;
+}
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto; /* (centrera allt text i mitten) */
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+#articles {
+  background-color: white;
+  padding: 1em;
+}
